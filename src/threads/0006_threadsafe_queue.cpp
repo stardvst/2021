@@ -80,7 +80,7 @@ thread_safe_queue<int> queue;
 void write()
 {
 	for (auto idx = 0; idx < 10; ++idx)
-		queue.push(++idx);
+		queue.push(idx);
 }
 
 void read()
